@@ -10,7 +10,7 @@
   "editor.tokenColorCustomizations": {
     "functions": "#63e1e6",
     "keywords": "#0ceee3",
-    "variables": "#87e976",
+    "variables": "#76b1e9",
     "strings": "#85eee7",
     "numbers": "#C26AEA",
     "types": "#e98cd5",
@@ -18,20 +18,21 @@
       {
         "scope": "variable.other",
         "settings": {
-          "foreground": "#e277ee",
-          "fontStyle": "italic"
+          "foreground": "#efbbf5",
+          "fontStyle": "italic  "
         }
       },
       {
         "scope": "variable.parameter",
         "settings": {
-          "foreground": "#70F9BE"
+          "foreground": "#0df691"
         }
       },
       {
-        "scope": "alias",
+        "scope": "entity.other.inherited-class",
         "settings": {
-          "foreground": "#1b95e7"
+          "foreground": "#f10065",
+          "fontStyle": "italic bold underline"
         }
       }
     ],
